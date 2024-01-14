@@ -19,6 +19,11 @@ nav .logo a {
     color: rgb(0, 0, 0);
 }
 
+nav .mobile-hamburger,
+nav .tablet {
+    display: none;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -31,4 +36,46 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #AD3F2B;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1250px) {
+
+    nav {
+        display: flex;
+    }
+
+    nav .desktop {
+        display: none;
+    }
+
+    nav .tablet {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav .mobile-hamburger,
+    nav .mobile-hamburger::before,
+    nav .mobile-hamburger::after
+     {
+        background-color: black;
+        display: block;
+        height: 4px;
+        width: 30px;
+        position: absolute;
+    }
+
+    nav .mobile-hamburger::before {
+        content: '';
+        margin-top: -8px;
+    }
+
+    nav .mobile-hamburger::after {
+        content: '';
+        margin-top: 8px;
+    }
 }
