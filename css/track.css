@@ -1,0 +1,25 @@
+.track {
+    background-color: #AD3F2B95;
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 6.93rem 0;
+}
+
+.track.h2 p {
+    text-align: center;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 570px){
+    .track {
+    padding: 3.93rem 1rem;
+    font-size: 1rem;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1250px) {
+
+}

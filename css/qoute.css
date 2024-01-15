@@ -1,0 +1,9 @@
+.qoute h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 570px){
+    
+}

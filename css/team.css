@@ -1,0 +1,65 @@
+.team h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.team-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.team-container figure {
+    max-width: 350px;
+}
+
+.team-container figure img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.team-container figure:last-child img {
+    transform: scaleX(-1);
+}
+
+.team-container figure figcaption {
+    color: #1E1E1E80;
+    font-size: 1.5rem;
+}
+
+/* Second figcaption adjustment for the font and margin */
+.team-container figure figcaption:last-child {
+    color: #1E1E1E80;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 570px){
+    .team-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team-container figure {
+        padding: 1.5rem;
+        max-width: 400px;
+    }
+
+    .team-container figure img {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .team-container figure figcaption {
+        color: #1E1E1E80;
+        font-size: 1rem;
+    }
+    
+    /* Second figcaption adjustment for the font and margin */
+    .team-container figure figcaption:last-child {
+        color: #1E1E1E80;
+        font-size: 0.8rem;
+        margin-top: -10px;
+    }
+
+}
+
