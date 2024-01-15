@@ -18,6 +18,18 @@ article img {
     background-size: cover;
 }
 
+
+/* Mobile */
+@media only screen and (max-width: 570px){
+    article {
+        padding: 1.5rem;
+    }
+
+    article h2, p {
+        text-align: center;
+    }
+}
+
 /* Tablet */
 @media only screen and (max-width: 1250px){
     .section, .articles {
