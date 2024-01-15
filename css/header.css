@@ -42,3 +42,29 @@ main {
     margin: 0 auto;
     padding-top: 4.5rem;
 }
+
+/* Mobile */
+@media only screen and (max-width: 570px) {
+    header {
+        height: 100vh;
+    }
+
+    header .hero h1 {
+        padding: 0;
+    }
+
+    header .hero {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    header .hero p {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 0;
+        padding-top: 2.5rem;
+    }
+}
