@@ -54,6 +54,7 @@ main {
     }
 
     header .hero {
+        height: 100vh;
         margin: 0;
         padding: 1rem;
     }
