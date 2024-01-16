@@ -32,9 +32,21 @@ article img {
 
 /* Tablet */
 @media only screen and (max-width: 768px){
-    .section, .articles {
+    .articles {
         justify-content: center;
+        gap: 2rem;
+        align-items: center;
     }
+
+    article {
+        max-width: 280px;
+    }
+
+    article img {
+        max-width: 100%;
+    }
+
+
 }
 
 /* Mobile */
