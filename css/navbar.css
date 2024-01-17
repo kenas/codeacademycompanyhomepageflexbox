@@ -42,6 +42,10 @@ nav.main ul li a:hover {
     border-bottom: 2px solid #AD3F2B;
 }
 
+nav.main ul li:last-child a {
+    border-bottom: none
+}
+
 /* Tablet */
 @media only screen and (max-width: 1250px) {
 

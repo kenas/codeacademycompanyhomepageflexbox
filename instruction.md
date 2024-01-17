@@ -62,3 +62,14 @@ Project Solution
 Great work! Visit our forums to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners!
 
 Remember, this is just one possible solution. Your own project may be coded totally differently, have more or less content, and look totally different! We’re providing our solution for you get a sense of one way to flexbox to help with page layout. There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
+
+--------------------------------------------------------------
+Good mnorning,
+
+I would like to present my homwork wich went from the homework to the project for a fried of mine, who is studing a gypsy history. The projekt have owne domen www.gypsyroots.cz. There is an option to select English. I decide for each section to make seperate css file for better work accesibility.
+
+1/I had face a inssue with the splash image. The image is big but nice art. I wanted to show the picture on all screen sises but there was an issue with that but I find a sullutiion.   
+
+2/I did release at the hero section when i appleyad the red box under text that the HEX color with aplha did not do well as I was expenting. I had to use the RGB color and change the alpha to 0.8 to get the red box to show up result better. Than the solution help to read the text clerly.
+
+3/ When I come up to the responsive section I was focusing mainly on the following sizes of mobile, tablet, laptop and dektop (570px, 768px, 1024px). I was testing me website in few browsers, Safari, Firefox and Brave. Brew help me a lot when I was not sure about the breaking point. But still not sure if that was a good proche. I would be happy if you can provide any feedback. 
