@@ -51,6 +51,7 @@ nav.main ul li:last-child a {
 
     nav.main {
         display: flex;
+        justify-content: space-between;
         padding: 1rem;
     }
 
@@ -71,7 +72,7 @@ nav.main ul li:last-child a {
         display: block;
         height: 4px;
         width: 30px;
-        position: absolute;
+        position: relative;
     }
 
     nav.main .mobile-hamburger::before {
@@ -81,6 +82,6 @@ nav.main ul li:last-child a {
 
     nav.main .mobile-hamburger::after {
         content: '';
-        margin-top: 8px;
+        margin-top: 12px;
     }
 }
