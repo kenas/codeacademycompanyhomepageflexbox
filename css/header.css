@@ -17,14 +17,15 @@ header {
 }
 
 header .hero {
-    background-color: #AD3F2B95;
+    background-color: #AD3F2B;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding: 4.375rem;
     margin: 44.0625rem 0;
+    opacity: 0.8;
 }
 
 header .hero h1 {
@@ -70,12 +71,15 @@ main {
 
     header .hero h1 {
         padding: 0;
+        font-size: 1.6rem;
     }
 
     header .hero {
+        background-color: #AD3F2B;
         height: 100vh;
         margin: 0;
         padding: 1rem;
+        opacity: 0.8;
     }
 
     header .hero p {

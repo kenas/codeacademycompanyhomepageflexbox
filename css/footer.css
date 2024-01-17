@@ -89,4 +89,8 @@ footer p {
         display: none;
     }
 
+    footer .logo {
+    max-width: min-content;
+    }
+
 }
