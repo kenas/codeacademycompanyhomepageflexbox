@@ -1,11 +1,13 @@
-.qoute h2 {
+section.qoute h2 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
+    margin: 10rem 0;
 }
 
+/* Mobile */
 @media only screen and (max-width: 570px){
-    .qoute {
+    section.qoute {
         padding: 1.2rem;
     }
 }

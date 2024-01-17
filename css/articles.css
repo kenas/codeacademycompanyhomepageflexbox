@@ -1,4 +1,4 @@
-section, .articles {
+section.articles {
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 1;
@@ -53,6 +53,7 @@ article img {
 @media only screen and (max-width: 570px){
     article {
         padding: 1.5rem;
+        max-width: 22.5rem;
     }
 
     article h2, p {
