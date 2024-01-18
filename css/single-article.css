@@ -141,7 +141,7 @@ main article p {
     
     section.single-article-title h1 {
         padding: 2rem 2rem 0 2rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
      }
  
      div.author {
@@ -153,6 +153,11 @@ main article p {
         padding-left: 1rem;
         font-size: 0.6rem;
     }
+
+    div.author figure img {
+        max-width: 14%;
+    }
+
  
      header.single-article-header {
          display: flex;
