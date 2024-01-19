@@ -7,6 +7,7 @@ input, textarea {
     display: block;
     padding: 1.5625rem 0;
     outline: none;
+    font-size: 1.3rem;
 }
 
 section.contact-form {
@@ -37,8 +38,15 @@ section.contact-form button {
     font-size: 1.5625rem;
 }
 
+section.contact-form button:hover {
+    background-color: #AD3F2B99;
+}
+
+section.contact-form button:active {
+    border: 1px solid #AD3F2B99;
+}
+
 section.social {
-    /* margin: 11.25rem 0; */
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,4 +62,21 @@ section.social .icons {
 section.social .icons i {
     margin: 1rem;
     color: #00000050;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    section.contact-form {
+        width: 90%;
+    }
+    section.social {
+        text-align: center;
+    }
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 570px){
+
 }
