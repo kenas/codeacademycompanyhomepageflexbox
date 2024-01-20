@@ -121,4 +121,8 @@ section.social .icons i {
     div.authors figure {
         max-width: 9rem;
     }
+
+    section.contact-form {
+        width: 95%;
+    }
 }
