@@ -10,6 +10,10 @@ article {
     width: 560px;
 }
 
+article h2 a {
+    color: #AD3F2B;
+}
+
 article img {
     background-position: 50% 50%;
     width: 100%;
